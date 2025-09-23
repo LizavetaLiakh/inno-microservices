@@ -5,6 +5,8 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
-    <include file="create_tables.sql" relativeToChangelogFile="true"/>
+    <changeSet id="inno-microservices" author="Lizaveta Liakh">
+        <sqlFile path="create_tables.sql" relativeToChangelogFile="true"/>
+    </changeSet>
 
 </databaseChangeLog>
