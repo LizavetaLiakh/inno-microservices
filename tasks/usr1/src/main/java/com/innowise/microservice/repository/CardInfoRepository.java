@@ -1,6 +1,6 @@
-package com.innowise.repository;
+package com.innowise.microservice.repository;
 
-import com.innowise.entity.CardInfo;
+import com.innowise.microservice.entity.CardInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

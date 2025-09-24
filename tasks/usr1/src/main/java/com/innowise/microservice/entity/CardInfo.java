@@ -1,4 +1,4 @@
-package com.innowise.entity;
+package com.innowise.microservice.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
